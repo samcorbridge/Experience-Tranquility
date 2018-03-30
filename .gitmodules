@@ -1,3 +1,6 @@
 [submodule "ExperiencingTranquility/Assets/SR_VFX"]
 	path = ExperiencingTranquility/Assets/SR_VFX
 	url = https://github.com/samcorbridge/SR_VFX.git
+[submodule "ExperiencingTranquility/Assets/SR_Models"]
+	path = ExperiencingTranquility/Assets/SR_Models
+	url = https://github.com/samcorbridge/SR_Models.git
