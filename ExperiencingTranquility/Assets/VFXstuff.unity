@@ -3518,7 +3518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &43170903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3533,6 +3533,7 @@ MonoBehaviour:
   shootForce: 15
   projectilePrefab: {fileID: 1907702175569304, guid: 6324c2bf90da1eb4d9d4220c8b05e200,
     type: 2}
+  keybinding: 5
 --- !u!4 &43170904
 Transform:
   m_ObjectHideFlags: 0
@@ -6910,7 +6911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &525069045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6925,6 +6926,7 @@ MonoBehaviour:
   shootForce: 15
   projectilePrefab: {fileID: 1525231229539838, guid: c04a264874e5e8249af494260c64652d,
     type: 2}
+  keybinding: 4
 --- !u!4 &525069046
 Transform:
   m_ObjectHideFlags: 0
@@ -10489,6 +10491,7 @@ MonoBehaviour:
   shootForce: 15
   projectilePrefab: {fileID: 1535517324059688, guid: cbfe9198346c0e242ba1c26127e0b5b3,
     type: 2}
+  keybinding: 1
 --- !u!4 &805969007
 Transform:
   m_ObjectHideFlags: 0
@@ -13963,7 +13966,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1141896336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13978,6 +13981,7 @@ MonoBehaviour:
   shootForce: 15
   projectilePrefab: {fileID: 1777354411730630, guid: 14ae6773b91e7234e95ff2f9216aab44,
     type: 2}
+  keybinding: 2
 --- !u!4 &1141896337
 Transform:
   m_ObjectHideFlags: 0
@@ -17499,7 +17503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1422175357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17514,6 +17518,7 @@ MonoBehaviour:
   shootForce: 15
   projectilePrefab: {fileID: 1079661442286838, guid: afaefce92007f2841b02bd7e129a555a,
     type: 2}
+  keybinding: 3
 --- !u!4 &1422175358
 Transform:
   m_ObjectHideFlags: 0
@@ -17754,7 +17759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1651793958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17769,6 +17774,7 @@ MonoBehaviour:
   shootForce: 15
   projectilePrefab: {fileID: 1365909415135960, guid: 63bad11ec95faae4f83145d41f4417a2,
     type: 2}
+  keybinding: 6
 --- !u!4 &1651793959
 Transform:
   m_ObjectHideFlags: 0
