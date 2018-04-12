@@ -6,10 +6,9 @@ public class ShootScript : MonoBehaviour {
 
 	public float shootForce = 40f;
 	public GameObject projectilePrefab;
-	public string keybinding = "a";
 
 	void Update (){
-		if (Input.GetKeyDown(keybinding)){
+		if (Input.GetMouseButtonDown(0)){
 			shootObject();
 		}
 	}
