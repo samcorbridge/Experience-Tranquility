@@ -31098,7 +31098,7 @@ MonoBehaviour:
   dripRate: 1
   projector: {fileID: 1503218065377544, guid: 3b8bf82bf1e4f4c418cb4880e820be47, type: 2}
   sprites:
-  - {fileID: 2800000, guid: 9ab867d121899cd48a21ba96a1036d2e, type: 3}
+  - {fileID: 0}
   spawnTime: 0.5
 --- !u!4 &1265673154 stripped
 Transform:
@@ -51859,6 +51859,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 199134426164069846, guid: c1ddd11f13b431446809a9612e6b46db,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03c7cb712658d24449397f5ed2bbf256, type: 2}
+    - target: {fileID: 199134426164069846, guid: c1ddd11f13b431446809a9612e6b46db,
+        type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03c7cb712658d24449397f5ed2bbf256, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1ddd11f13b431446809a9612e6b46db, type: 2}
   m_IsPrefabParent: 0
