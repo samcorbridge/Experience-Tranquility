@@ -1,0 +1,1512 @@
+fileFormatVersion: 2
+guid: ed9fd5f7693be9648b5f4aa97be90f2b
+timeCreated: 1524587272
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ball_Rotator_in_Ankle
+    100004: Bicep
+    100006: Big_Toe_Piece
+    100008: BigPoint
+    100010: blade
+    100012: blade 1
+    100014: blade 2
+    100016: ClothSimulationStuff
+    100018: COG
+    100020: COG_ctl
+    100022: COG_ctl_grp
+    100024: collapsing_bottom_part
+    100026: collapsing_bottom_part 1
+    100028: collapsing_bottom_part 2
+    100030: Controls
+    100032: CurlyHair
+    100034: dynamicConstraint1
+    100036: ElbowSpinner
+    100038: End
+    100040: Expanding_blade
+    100042: Expanding_blade 1
+    100044: Expanding_blade 2
+    100046: expanding_part_joint
+    100048: expanding_part_joint 1
+    100050: expanding_part_joint 2
+    100052: Feather1
+    100054: Feather2
+    100056: Feather3
+    100058: Finger_1
+    100060: Finger_1_Piece_1
+    100062: Finger_1_Piece_2
+    100064: Finger_1_Piece_3
+    100066: Finger_1_Rotation_1
+    100068: Finger_1_Rotation_2
+    100070: Finger_1_Rotation_3
+    100072: Finger_2
+    100074: Finger_2_Piece_1
+    100076: Finger_2_Piece_2
+    100078: Finger_2_Piece_3
+    100080: Finger_2_Rotation_1
+    100082: Finger_2_Rotation_2
+    100084: Finger_2_Rotation_3
+    100086: Finger_3
+    100088: Finger_3_Piece_1
+    100090: Finger_3_Piece_2
+    100092: Finger_3_Piece_3
+    100094: Finger_3_Rotation_1
+    100096: Finger_3_Rotation_2
+    100098: Finger_3_Rotation_3
+    100100: Finger_4
+    100102: Finger_4_Piece_1
+    100104: Finger_4_Piece_2
+    100106: Finger_4_Piece_3
+    100108: Finger_4_Rotation_1
+    100110: Finger_4_Rotation_2
+    100112: Finger_4_Rotation_3
+    100114: FK_Ctrls
+    100116: FK_L_Arm_1
+    100118: FK_L_Arm_2
+    100120: FK_L_Arm_4
+    100122: FK_L_Arm__01_ctl_grp
+    100124: FK_L_Foot1
+    100126: FK_L_Foot_2
+    100128: FK_L_Foot_3
+    100130: FK_L_Leg_1
+    100132: FK_L_Leg_2
+    100134: FK_L_Leg_3
+    100136: FK_L_Leg_ctl_grp
+    100138: FK_R_Arm_01_ctl_grp
+    100140: FK_R_Arm_1
+    100142: FK_R_Arm_2
+    100144: FK_R_Arm_3
+    100146: FK_R_Foot1
+    100148: FK_R_Foot_2
+    100150: FK_R_Foot_3
+    100152: FK_R_Leg_1
+    100154: FK_R_Leg_2
+    100156: FK_R_Leg_3
+    100158: FK_R_Leg_ctl_grp
+    100160: FK_Skeleton
+    100162: Foot
+    100164: ForeArm
+    100166: ForeArm_Inner
+    100168: Geo
+    100170: GirlModel
+    100172: gravityField1
+    100174: Gril
+    100176: group5
+    100178: Hair1
+    100180: Hair3
+    100182: Hair_wraparound
+    100184: HairTiething
+    100186: Hand
+    100188: Heel_Piece
+    100190: Hips
+    100192: Hips_ctl
+    100194: Hips_ctl_grp
+    100196: IK_Ctrls
+    100198: IK_L_Arm
+    100200: IK_L_Arm_1
+    100202: IK_L_Arm_2
+    100204: IK_L_Arm_3
+    100206: IK_L_Foot
+    100208: IK_L_Foot_2
+    100210: IK_L_Foot_3
+    100212: IK_L_Leg
+    100214: IK_L_Leg_1
+    100216: IK_L_Leg_2
+    100218: IK_L_Leg_3
+    100220: IK_R_Arm
+    100222: IK_R_Arm_1
+    100224: IK_R_Arm_2
+    100226: IK_R_Arm_3
+    100228: IK_R_Foot1
+    100230: IK_R_Foot_2
+    100232: IK_R_Foot_3
+    100234: IK_R_Leg
+    100236: IK_R_Leg_1
+    100238: IK_R_Leg_2
+    100240: IK_R_Leg_3
+    100242: IK_Skeleton
+    100244: Image_Planes
+    100246: imagePlane1
+    100248: imagePlane3
+    100250: imagePlane4
+    100252: imagePlane5
+    100254: imagePlane6
+    100256: imagePlane7
+    100258: imagePlane8
+    100260: Inner_Foot
+    100262: Inner_shin
+    100264: Knee_Going_Into_Shin
+    100266: Knee_Rotator
+    100268: L_1_Finger_1
+    100270: L_1_Finger_2
+    100272: L_1_Finger_3
+    100274: L_2_Finger_1
+    100276: L_2_Finger_2
+    100278: L_2_Finger_3
+    100280: L_3_Finger_1
+    100282: L_3_Finger_2
+    100284: L_3_Finger_3
+    100286: L_4_Finger_1
+    100288: L_4_Finger_2
+    100290: L_4_Finger_3
+    100292: L_Arm_1
+    100294: L_Arm_2
+    100296: L_Arm_3
+    100298: L_Arm__01_ctl
+    100300: L_Arm__01_ctl 1
+    100302: L_Arm__01_ctl_grp
+    100304: L_Arm__02_ctl
+    100306: L_Arm__02_ctl_grp
+    100308: L_Arm__03_ctl
+    100310: L_Arm__03_ctl 1
+    100312: L_Arm__03_ctl_grp
+    100314: L_Arm_IK_Hand
+    100316: L_Arm_IK_Handle
+    100318: L_Arm_PV_ctl
+    100320: L_Arm_PV_ctl 1
+    100322: L_Arm_PV_ctl_grp
+    100324: L_Clavicle
+    100326: L_Clavicle_ctl
+    100328: L_Clavicle_ctl_grp
+    100330: L_Eye1
+    100332: L_Feather_01_ctl
+    100334: L_Feather_01_ctl_grp
+    100336: L_Feather_02_ctl
+    100338: L_Feather_02_ctl_grp
+    100340: L_Feather_1
+    100342: L_Feather_2
+    100344: L_Foot
+    100346: L_Foot_01_ctl
+    100348: L_Foot_01_ctl 1
+    100350: L_Foot_01_ctl_grp
+    100352: L_Foot_01_ctl_grp 1
+    100354: L_Foot_02_ctl
+    100356: L_Foot_02_ctl_grp
+    100358: L_Foot_1_IK_Chain
+    100360: L_Foot_2
+    100362: L_Foot_2_IK_Chain
+    100364: L_Foot_3
+    100366: L_Foot_ctl
+    100368: L_Foot_Ctl_grp
+    100370: L_Hair_01_ctl
+    100372: L_Hair_01_ctl_grp
+    100374: L_Hair_02_ctl
+    100376: L_Hair_02_ctl_grp
+    100378: L_Hair_03_ctl
+    100380: L_Hair_03_ctl_grp
+    100382: L_Hair_1
+    100384: L_Hair_2
+    100386: L_Hair_3
+    100388: L_Hand
+    100390: L_Hand_ctl
+    100392: L_Hand_ctl_grp
+    100394: L_Heel_ctl_grp
+    100396: L_Heel_Lifter_ctl
+    100398: L_Heel_lifter_ctl_grp
+    100400: L_Hips_02_ctl
+    100402: L_Hips_02_ctl 1
+    100404: L_Hips_02_ctl_grp
+    100406: L_Knee_ctl
+    100408: L_Knee_ctl_grp
+    100410: L_L_Heel_ctl
+    100412: L_Leg_1
+    100414: L_Leg_2
+    100416: L_Leg_3
+    100418: L_Leg_IK_Handle
+    100420: L_Leg_PV_ctl
+    100422: L_Leg_PV_ctl 1
+    100424: L_Leg_PV_ctl_grp
+    100426: L_Middle_Finger_01_ctl
+    100428: L_Middle_Finger_02_ctl
+    100430: L_Middle_Finger_03_ctl
+    100432: L_MiddleFinger_01_ctl_grp
+    100434: L_MiddleFinger_02_ctl_grp
+    100436: L_MiddleFinger_03_ctl_grp
+    100438: L_Pinky_Finger_01_ctl
+    100440: L_Pinky_Finger_01_ctl_grp
+    100442: L_Pinky_Finger_02_ctl
+    100444: L_Pinky_Finger_02_ctl_grp
+    100446: L_Pinky_Finger_03_ctl
+    100448: L_Pinky_Finger_03_ctl_grp
+    100450: L_Pointer_Finger_01_ctl
+    100452: L_Pointer_Finger_01_ctl_grp
+    100454: L_Pointer_Finger_02_ctl
+    100456: L_Pointer_Finger_02_ctl_grp
+    100458: L_Pointer_Finger_03_ctl
+    100460: L_Pointer_Finger_03_ctl_grp
+    100462: L_Ring_Finger_01_ctl
+    100464: L_Ring_Finger_01_ctl_grp
+    100466: L_Ring_Finger_02_ctl
+    100468: L_Ring_Finger_02_ctl_grp
+    100470: L_Ring_Finger_03_ctl
+    100472: L_Ring_Finger_03_ctl_grp
+    100474: L_Thumb_01_ctl
+    100476: L_Thumb_01_ctl_grp
+    100478: L_Thumb_02_ctl
+    100480: L_Thumb_02_ctl_grp
+    100482: L_Thumb_03_ctl
+    100484: L_Thumb_03_ctl_grp
+    100486: L_Thumb_1
+    100488: L_Thumb_2
+    100490: L_Thumb_3
+    100492: L_Toe_Lifter_ctl
+    100494: L_Toe_lifter_ctl_grp1
+    100496: L_Toe_TIp_ctl
+    100498: L_Toe_Tip_ctl_grp
+    100500: left
+    100502: leg
+    100504: lower_large_handle
+    100506: lower_large_handle 1
+    100508: lower_large_handle 2
+    100510: Lower_LEg
+    100512: lower_small_handle
+    100514: lower_small_handle 1
+    100516: lower_small_handle 2
+    100518: M_Hair_01_ctl
+    100520: M_Hair_01_ctl_grp
+    100522: M_Hair_02_ctl
+    100524: M_Hair_02_ctl_grp
+    100526: M_Hair_03_ctl
+    100528: M_Hair_03_ctl_grp
+    100530: M_Hair_1
+    100532: M_Hair_2
+    100534: M_Hair_3
+    100536: Main_Piece_Joint
+    100538: Main_Piece_Joint 1
+    100540: Main_Piece_Joint 2
+    100542: MainForeArm
+    100544: MainHandle
+    100546: MainHandle1
+    100548: MainHangingHair
+    100550: nCloth1
+    100552: Neck_01_ctl
+    100554: Neck_01_ctl_grp
+    100556: Neck_02_ctl
+    100558: Neck_02_ctl_grp
+    100560: Neck_03_ctl
+    100562: Neck_03_ctl_grp
+    100564: Neck_04_ctl
+    100566: Neck_04_ctl_grp
+    100568: Neck_1
+    100570: Neck_2
+    100572: Neck_3
+    100574: nRigid1
+    100576: nRigid2
+    100578: nucleus1
+    100580: OnTopHair
+    100582: Other_Toes_Piece
+    100584: Palm_Piece
+    100586: pointy_part_joint
+    100588: pointy_part_joint 1
+    100590: pointy_part_joint 2
+    100592: Ponytail
+    100594: Ponytail_01_ctl
+    100596: Ponytail_01_ctl_grp
+    100598: Ponytail_02_ctl
+    100600: Ponytail_02_ctl_grp
+    100602: Ponytail_03_ctl
+    100604: Ponytail_03_ctl_grp
+    100606: Ponytail_04_ctl
+    100608: Ponytail_04_ctl_grp
+    100610: PonyTail_1
+    100612: PonyTail_2
+    100614: PonyTail_3
+    100616: PonyTail_4
+    100618: pPlane26
+    100620: pPlane26 1
+    100622: pPlane26 2
+    100624: pPlane27
+    100626: pPlane27 1
+    100628: pPlane27 2
+    100630: R_1_Finger_1
+    100632: R_1_Finger_2
+    100634: R_1_Finger_3
+    100636: R_2_Finger_1
+    100638: R_2_Finger_2
+    100640: R_2_Finger_3
+    100642: R_3_Finger_1
+    100644: R_3_Finger_2
+    100646: R_3_Finger_3
+    100648: R_4_Finger_1
+    100650: R_4_Finger_2
+    100652: R_4_Finger_3
+    100654: R_Arm_01_ctl
+    100656: R_Arm_01_ctl 1
+    100658: R_Arm_01_ctl_grp
+    100660: R_Arm_02_ctl
+    100662: R_Arm_02_ctl_grp
+    100664: R_Arm_03_ctl
+    100666: R_Arm_03_ctl 1
+    100668: R_Arm_03_ctl_grp
+    100670: R_Arm_1
+    100672: R_Arm_2
+    100674: R_Arm_3
+    100676: R_Arm_IK_Hand
+    100678: R_Arm_IK_handle
+    100680: R_Arm_PV_ctl
+    100682: R_Arm_PV_ctl 1
+    100684: R_Arm_PV_ctl_grp
+    100686: R_Clavicle
+    100688: R_Clavicle_ctl
+    100690: R_Clavicle_ctl_grp
+    100692: R_Eye1
+    100694: R_Feather_01_ctl
+    100696: R_Feather_01_ctl_grp
+    100698: R_Feather_02_ctl
+    100700: R_Feather_02_ctl_grp
+    100702: R_Feather_1
+    100704: R_Feather_2
+    100706: R_Foot
+    100708: R_Foot_01_ctl
+    100710: R_Foot_01_ctl 1
+    100712: R_Foot_01_ctl_grp
+    100714: R_Foot_01_ctl_grp 1
+    100716: R_Foot_02_ctl
+    100718: R_Foot_02_ctl 1
+    100720: R_Foot_02_ctl_grp
+    100722: R_Foot_02_ctl_grp1
+    100724: R_Foot_2
+    100726: R_Foot_3
+    100728: R_Foot_ctl
+    100730: R_Foot_Ctl_grp1
+    100732: R_Foot_IK_Handle_1
+    100734: R_Foot_IK_Handle_2
+    100736: R_Hair_01_ctl
+    100738: R_Hair_01_ctl_grp
+    100740: R_Hair_02_ctl
+    100742: R_Hair_02_ctl_grp
+    100744: R_Hair_03_ctl
+    100746: R_Hair_03_ctl_grp
+    100748: R_Hair_1
+    100750: R_Hair_2
+    100752: R_Hair_3
+    100754: R_Hand
+    100756: R_Hand_ctl
+    100758: R_Hand_ctl_grp
+    100760: R_Heel_ctl_grp
+    100762: R_Heel_Lifter_ctl
+    100764: R_Heel_lifter_ctl_grp
+    100766: R_Hips_02_ctl
+    100768: R_Hips_02_ctl 1
+    100770: R_Hips_02_ctl_grp
+    100772: R_L_Heel_ctl
+    100774: R_Leg_1
+    100776: R_Leg_2
+    100778: R_Leg_3
+    100780: R_Leg_IK_Handle
+    100782: R_Leg_PV_ctl
+    100784: R_Leg_PV_ctl 1
+    100786: R_Leg_PV_ctl_grp
+    100788: R_Middle_Finger_01_ctl_grp
+    100790: R_Middle_Finger_02_ctl_grp
+    100792: R_Middle_Finger_03_ctl_grp
+    100794: R_MiddleFinger_01_ctl
+    100796: R_MiddleFinger_02_ctl
+    100798: R_MiddleFinger_03_ctl
+    100800: R_Pinky_Finger_01_ctl
+    100802: R_Pinky_Finger_01_ctl_grp
+    100804: R_Pinky_Finger_02_ctl
+    100806: R_Pinky_Finger_02_ctl_grp
+    100808: R_Pinky_Finger_03_ctl
+    100810: R_Pinky_Finger_03_ctl_grp
+    100812: R_Pointer_Finger_01_ctl
+    100814: R_Pointer_Finger_01_ctl_grp
+    100816: R_Pointer_Finger_02_ctl
+    100818: R_Pointer_Finger_02_ctl_grp
+    100820: R_Pointer_Finger_03_ctl
+    100822: R_Pointer_Finger_03_ctl_grp
+    100824: R_Ring_Finger_01_ctl
+    100826: R_Ring_Finger_01_ctl_grp
+    100828: R_Ring_Finger_02_ctl
+    100830: R_Ring_Finger_02_ctl_grp
+    100832: R_Ring_Finger_03_ctl
+    100834: R_Ring_Finger_03_ctl_grp
+    100836: R_Thumb_1
+    100838: R_Thumb_2
+    100840: R_Toe_Lifter_ctl
+    100842: R_Toe_lifter_ctl_grp1
+    100844: R_Toe_TIp_ctl
+    100846: R_Toe_Tip_ctl_grp
+    100848: RK
+    100850: RK_Ctrls
+    100852: ROTATE_THUMB_CYLINDER
+    100854: rotating_part
+    100856: rotating_part 1
+    100858: rotating_part 2
+    100860: rotocyl
+    100862: rotocyl 1
+    100864: rotocyl 2
+    100866: s_ear1
+    100868: ShirtObject
+    100870: ShoulderRotator
+    100872: Skeleton
+    100874: SkirtSim
+    100876: small_rotator_joint
+    100878: small_rotator_joint 1
+    100880: small_rotator_joint 2
+    100882: SmallAttachPiece
+    100884: smaller_piece_joint
+    100886: smaller_piece_joint 1
+    100888: smaller_piece_joint 2
+    100890: SmallPoint
+    100892: Spear
+    100894: Spear2_Geo
+    100896: Spear2_Geo 1
+    100898: Spear2_Geo 2
+    100900: Spear3
+    100902: Spear5
+    100904: spear_bottom_ctl
+    100906: spear_bottom_ctl 1
+    100908: spear_bottom_ctl 2
+    100910: spear_Bottom_ctl_grp
+    100912: spear_Bottom_ctl_grp 1
+    100914: spear_Bottom_ctl_grp 2
+    100916: spear_main_ctl
+    100918: spear_main_ctl 1
+    100920: spear_main_ctl 2
+    100922: spear_main_ctl_grp
+    100924: spear_main_ctl_grp 1
+    100926: spear_main_ctl_grp 2
+    100928: spear_rotator_ctl
+    100930: spear_rotator_ctl 1
+    100932: spear_rotator_ctl 2
+    100934: spear_rotator_ctl_grp
+    100936: spear_rotator_ctl_grp 1
+    100938: spear_rotator_ctl_grp 2
+    100940: spear_second_ctl
+    100942: spear_second_ctl 1
+    100944: spear_second_ctl 2
+    100946: spear_second_ctl_grp
+    100948: spear_second_ctl_grp 1
+    100950: spear_second_ctl_grp 2
+    100952: spear_third_ctl
+    100954: spear_third_ctl 1
+    100956: spear_third_ctl 2
+    100958: spear_third_ctl_grp
+    100960: spear_third_ctl_grp 1
+    100962: spear_third_ctl_grp 2
+    100964: spear_top_ctl
+    100966: spear_top_ctl 1
+    100968: spear_top_ctl 2
+    100970: spear_Top_ctl_grp
+    100972: spear_Top_ctl_grp 1
+    100974: spear_Top_ctl_grp 2
+    100976: Spears
+    100978: Spine_01_ctl
+    100980: Spine_01_ctl_grp
+    100982: Spine_02_ctl
+    100984: Spine_02_ctl_grp
+    100986: Spine_03_ctl
+    100988: Spine_03_ctl_grp
+    100990: Spine_04_ctl
+    100992: Spine_04_ctl_grp
+    100994: Spine_1
+    100996: Spine_2
+    100998: Spine_3
+    101000: Spine_4
+    101002: StaticSkirt
+    101004: Thigh
+    101006: Thumb_01_ctl
+    101008: Thumb_01_ctl_grp
+    101010: Thumb_02_ctl
+    101012: Thumb_02_ctl_grp
+    101014: Thumb_Piece_1
+    101016: Thumb_Piece_2
+    101018: ThumbRotator
+    101020: Toes
+    101022: Top_of_foot
+    101024: topHandle
+    101026: Transform_ctl
+    101028: TubeonEnd
+    101030: TubeonPointEnd
+    101032: upper_large_handle
+    101034: upper_large_handle 1
+    101036: upper_large_handle 2
+    101038: Upper_small_handle
+    101040: Upper_small_handle 1
+    101042: Upper_small_handle 2
+    101044: WristinForeArm
+    101046: WristInHand
+    101048: WristSphere
+    400000: //RootNode
+    400002: Ball_Rotator_in_Ankle
+    400004: Bicep
+    400006: Big_Toe_Piece
+    400008: BigPoint
+    400010: blade
+    400012: blade 1
+    400014: blade 2
+    400016: ClothSimulationStuff
+    400018: COG
+    400020: COG_ctl
+    400022: COG_ctl_grp
+    400024: collapsing_bottom_part
+    400026: collapsing_bottom_part 1
+    400028: collapsing_bottom_part 2
+    400030: Controls
+    400032: CurlyHair
+    400034: dynamicConstraint1
+    400036: ElbowSpinner
+    400038: End
+    400040: Expanding_blade
+    400042: Expanding_blade 1
+    400044: Expanding_blade 2
+    400046: expanding_part_joint
+    400048: expanding_part_joint 1
+    400050: expanding_part_joint 2
+    400052: Feather1
+    400054: Feather2
+    400056: Feather3
+    400058: Finger_1
+    400060: Finger_1_Piece_1
+    400062: Finger_1_Piece_2
+    400064: Finger_1_Piece_3
+    400066: Finger_1_Rotation_1
+    400068: Finger_1_Rotation_2
+    400070: Finger_1_Rotation_3
+    400072: Finger_2
+    400074: Finger_2_Piece_1
+    400076: Finger_2_Piece_2
+    400078: Finger_2_Piece_3
+    400080: Finger_2_Rotation_1
+    400082: Finger_2_Rotation_2
+    400084: Finger_2_Rotation_3
+    400086: Finger_3
+    400088: Finger_3_Piece_1
+    400090: Finger_3_Piece_2
+    400092: Finger_3_Piece_3
+    400094: Finger_3_Rotation_1
+    400096: Finger_3_Rotation_2
+    400098: Finger_3_Rotation_3
+    400100: Finger_4
+    400102: Finger_4_Piece_1
+    400104: Finger_4_Piece_2
+    400106: Finger_4_Piece_3
+    400108: Finger_4_Rotation_1
+    400110: Finger_4_Rotation_2
+    400112: Finger_4_Rotation_3
+    400114: FK_Ctrls
+    400116: FK_L_Arm_1
+    400118: FK_L_Arm_2
+    400120: FK_L_Arm_4
+    400122: FK_L_Arm__01_ctl_grp
+    400124: FK_L_Foot1
+    400126: FK_L_Foot_2
+    400128: FK_L_Foot_3
+    400130: FK_L_Leg_1
+    400132: FK_L_Leg_2
+    400134: FK_L_Leg_3
+    400136: FK_L_Leg_ctl_grp
+    400138: FK_R_Arm_01_ctl_grp
+    400140: FK_R_Arm_1
+    400142: FK_R_Arm_2
+    400144: FK_R_Arm_3
+    400146: FK_R_Foot1
+    400148: FK_R_Foot_2
+    400150: FK_R_Foot_3
+    400152: FK_R_Leg_1
+    400154: FK_R_Leg_2
+    400156: FK_R_Leg_3
+    400158: FK_R_Leg_ctl_grp
+    400160: FK_Skeleton
+    400162: Foot
+    400164: ForeArm
+    400166: ForeArm_Inner
+    400168: Geo
+    400170: GirlModel
+    400172: gravityField1
+    400174: Gril
+    400176: group5
+    400178: Hair1
+    400180: Hair3
+    400182: Hair_wraparound
+    400184: HairTiething
+    400186: Hand
+    400188: Heel_Piece
+    400190: Hips
+    400192: Hips_ctl
+    400194: Hips_ctl_grp
+    400196: IK_Ctrls
+    400198: IK_L_Arm
+    400200: IK_L_Arm_1
+    400202: IK_L_Arm_2
+    400204: IK_L_Arm_3
+    400206: IK_L_Foot
+    400208: IK_L_Foot_2
+    400210: IK_L_Foot_3
+    400212: IK_L_Leg
+    400214: IK_L_Leg_1
+    400216: IK_L_Leg_2
+    400218: IK_L_Leg_3
+    400220: IK_R_Arm
+    400222: IK_R_Arm_1
+    400224: IK_R_Arm_2
+    400226: IK_R_Arm_3
+    400228: IK_R_Foot1
+    400230: IK_R_Foot_2
+    400232: IK_R_Foot_3
+    400234: IK_R_Leg
+    400236: IK_R_Leg_1
+    400238: IK_R_Leg_2
+    400240: IK_R_Leg_3
+    400242: IK_Skeleton
+    400244: Image_Planes
+    400246: imagePlane1
+    400248: imagePlane3
+    400250: imagePlane4
+    400252: imagePlane5
+    400254: imagePlane6
+    400256: imagePlane7
+    400258: imagePlane8
+    400260: Inner_Foot
+    400262: Inner_shin
+    400264: Knee_Going_Into_Shin
+    400266: Knee_Rotator
+    400268: L_1_Finger_1
+    400270: L_1_Finger_2
+    400272: L_1_Finger_3
+    400274: L_2_Finger_1
+    400276: L_2_Finger_2
+    400278: L_2_Finger_3
+    400280: L_3_Finger_1
+    400282: L_3_Finger_2
+    400284: L_3_Finger_3
+    400286: L_4_Finger_1
+    400288: L_4_Finger_2
+    400290: L_4_Finger_3
+    400292: L_Arm_1
+    400294: L_Arm_2
+    400296: L_Arm_3
+    400298: L_Arm__01_ctl
+    400300: L_Arm__01_ctl 1
+    400302: L_Arm__01_ctl_grp
+    400304: L_Arm__02_ctl
+    400306: L_Arm__02_ctl_grp
+    400308: L_Arm__03_ctl
+    400310: L_Arm__03_ctl 1
+    400312: L_Arm__03_ctl_grp
+    400314: L_Arm_IK_Hand
+    400316: L_Arm_IK_Handle
+    400318: L_Arm_PV_ctl
+    400320: L_Arm_PV_ctl 1
+    400322: L_Arm_PV_ctl_grp
+    400324: L_Clavicle
+    400326: L_Clavicle_ctl
+    400328: L_Clavicle_ctl_grp
+    400330: L_Eye1
+    400332: L_Feather_01_ctl
+    400334: L_Feather_01_ctl_grp
+    400336: L_Feather_02_ctl
+    400338: L_Feather_02_ctl_grp
+    400340: L_Feather_1
+    400342: L_Feather_2
+    400344: L_Foot
+    400346: L_Foot_01_ctl
+    400348: L_Foot_01_ctl 1
+    400350: L_Foot_01_ctl_grp
+    400352: L_Foot_01_ctl_grp 1
+    400354: L_Foot_02_ctl
+    400356: L_Foot_02_ctl_grp
+    400358: L_Foot_1_IK_Chain
+    400360: L_Foot_2
+    400362: L_Foot_2_IK_Chain
+    400364: L_Foot_3
+    400366: L_Foot_ctl
+    400368: L_Foot_Ctl_grp
+    400370: L_Hair_01_ctl
+    400372: L_Hair_01_ctl_grp
+    400374: L_Hair_02_ctl
+    400376: L_Hair_02_ctl_grp
+    400378: L_Hair_03_ctl
+    400380: L_Hair_03_ctl_grp
+    400382: L_Hair_1
+    400384: L_Hair_2
+    400386: L_Hair_3
+    400388: L_Hand
+    400390: L_Hand_ctl
+    400392: L_Hand_ctl_grp
+    400394: L_Heel_ctl_grp
+    400396: L_Heel_Lifter_ctl
+    400398: L_Heel_lifter_ctl_grp
+    400400: L_Hips_02_ctl
+    400402: L_Hips_02_ctl 1
+    400404: L_Hips_02_ctl_grp
+    400406: L_Knee_ctl
+    400408: L_Knee_ctl_grp
+    400410: L_L_Heel_ctl
+    400412: L_Leg_1
+    400414: L_Leg_2
+    400416: L_Leg_3
+    400418: L_Leg_IK_Handle
+    400420: L_Leg_PV_ctl
+    400422: L_Leg_PV_ctl 1
+    400424: L_Leg_PV_ctl_grp
+    400426: L_Middle_Finger_01_ctl
+    400428: L_Middle_Finger_02_ctl
+    400430: L_Middle_Finger_03_ctl
+    400432: L_MiddleFinger_01_ctl_grp
+    400434: L_MiddleFinger_02_ctl_grp
+    400436: L_MiddleFinger_03_ctl_grp
+    400438: L_Pinky_Finger_01_ctl
+    400440: L_Pinky_Finger_01_ctl_grp
+    400442: L_Pinky_Finger_02_ctl
+    400444: L_Pinky_Finger_02_ctl_grp
+    400446: L_Pinky_Finger_03_ctl
+    400448: L_Pinky_Finger_03_ctl_grp
+    400450: L_Pointer_Finger_01_ctl
+    400452: L_Pointer_Finger_01_ctl_grp
+    400454: L_Pointer_Finger_02_ctl
+    400456: L_Pointer_Finger_02_ctl_grp
+    400458: L_Pointer_Finger_03_ctl
+    400460: L_Pointer_Finger_03_ctl_grp
+    400462: L_Ring_Finger_01_ctl
+    400464: L_Ring_Finger_01_ctl_grp
+    400466: L_Ring_Finger_02_ctl
+    400468: L_Ring_Finger_02_ctl_grp
+    400470: L_Ring_Finger_03_ctl
+    400472: L_Ring_Finger_03_ctl_grp
+    400474: L_Thumb_01_ctl
+    400476: L_Thumb_01_ctl_grp
+    400478: L_Thumb_02_ctl
+    400480: L_Thumb_02_ctl_grp
+    400482: L_Thumb_03_ctl
+    400484: L_Thumb_03_ctl_grp
+    400486: L_Thumb_1
+    400488: L_Thumb_2
+    400490: L_Thumb_3
+    400492: L_Toe_Lifter_ctl
+    400494: L_Toe_lifter_ctl_grp1
+    400496: L_Toe_TIp_ctl
+    400498: L_Toe_Tip_ctl_grp
+    400500: left
+    400502: leg
+    400504: lower_large_handle
+    400506: lower_large_handle 1
+    400508: lower_large_handle 2
+    400510: Lower_LEg
+    400512: lower_small_handle
+    400514: lower_small_handle 1
+    400516: lower_small_handle 2
+    400518: M_Hair_01_ctl
+    400520: M_Hair_01_ctl_grp
+    400522: M_Hair_02_ctl
+    400524: M_Hair_02_ctl_grp
+    400526: M_Hair_03_ctl
+    400528: M_Hair_03_ctl_grp
+    400530: M_Hair_1
+    400532: M_Hair_2
+    400534: M_Hair_3
+    400536: Main_Piece_Joint
+    400538: Main_Piece_Joint 1
+    400540: Main_Piece_Joint 2
+    400542: MainForeArm
+    400544: MainHandle
+    400546: MainHandle1
+    400548: MainHangingHair
+    400550: nCloth1
+    400552: Neck_01_ctl
+    400554: Neck_01_ctl_grp
+    400556: Neck_02_ctl
+    400558: Neck_02_ctl_grp
+    400560: Neck_03_ctl
+    400562: Neck_03_ctl_grp
+    400564: Neck_04_ctl
+    400566: Neck_04_ctl_grp
+    400568: Neck_1
+    400570: Neck_2
+    400572: Neck_3
+    400574: nRigid1
+    400576: nRigid2
+    400578: nucleus1
+    400580: OnTopHair
+    400582: Other_Toes_Piece
+    400584: Palm_Piece
+    400586: pointy_part_joint
+    400588: pointy_part_joint 1
+    400590: pointy_part_joint 2
+    400592: Ponytail
+    400594: Ponytail_01_ctl
+    400596: Ponytail_01_ctl_grp
+    400598: Ponytail_02_ctl
+    400600: Ponytail_02_ctl_grp
+    400602: Ponytail_03_ctl
+    400604: Ponytail_03_ctl_grp
+    400606: Ponytail_04_ctl
+    400608: Ponytail_04_ctl_grp
+    400610: PonyTail_1
+    400612: PonyTail_2
+    400614: PonyTail_3
+    400616: PonyTail_4
+    400618: pPlane26
+    400620: pPlane26 1
+    400622: pPlane26 2
+    400624: pPlane27
+    400626: pPlane27 1
+    400628: pPlane27 2
+    400630: R_1_Finger_1
+    400632: R_1_Finger_2
+    400634: R_1_Finger_3
+    400636: R_2_Finger_1
+    400638: R_2_Finger_2
+    400640: R_2_Finger_3
+    400642: R_3_Finger_1
+    400644: R_3_Finger_2
+    400646: R_3_Finger_3
+    400648: R_4_Finger_1
+    400650: R_4_Finger_2
+    400652: R_4_Finger_3
+    400654: R_Arm_01_ctl
+    400656: R_Arm_01_ctl 1
+    400658: R_Arm_01_ctl_grp
+    400660: R_Arm_02_ctl
+    400662: R_Arm_02_ctl_grp
+    400664: R_Arm_03_ctl
+    400666: R_Arm_03_ctl 1
+    400668: R_Arm_03_ctl_grp
+    400670: R_Arm_1
+    400672: R_Arm_2
+    400674: R_Arm_3
+    400676: R_Arm_IK_Hand
+    400678: R_Arm_IK_handle
+    400680: R_Arm_PV_ctl
+    400682: R_Arm_PV_ctl 1
+    400684: R_Arm_PV_ctl_grp
+    400686: R_Clavicle
+    400688: R_Clavicle_ctl
+    400690: R_Clavicle_ctl_grp
+    400692: R_Eye1
+    400694: R_Feather_01_ctl
+    400696: R_Feather_01_ctl_grp
+    400698: R_Feather_02_ctl
+    400700: R_Feather_02_ctl_grp
+    400702: R_Feather_1
+    400704: R_Feather_2
+    400706: R_Foot
+    400708: R_Foot_01_ctl
+    400710: R_Foot_01_ctl 1
+    400712: R_Foot_01_ctl_grp
+    400714: R_Foot_01_ctl_grp 1
+    400716: R_Foot_02_ctl
+    400718: R_Foot_02_ctl 1
+    400720: R_Foot_02_ctl_grp
+    400722: R_Foot_02_ctl_grp1
+    400724: R_Foot_2
+    400726: R_Foot_3
+    400728: R_Foot_ctl
+    400730: R_Foot_Ctl_grp1
+    400732: R_Foot_IK_Handle_1
+    400734: R_Foot_IK_Handle_2
+    400736: R_Hair_01_ctl
+    400738: R_Hair_01_ctl_grp
+    400740: R_Hair_02_ctl
+    400742: R_Hair_02_ctl_grp
+    400744: R_Hair_03_ctl
+    400746: R_Hair_03_ctl_grp
+    400748: R_Hair_1
+    400750: R_Hair_2
+    400752: R_Hair_3
+    400754: R_Hand
+    400756: R_Hand_ctl
+    400758: R_Hand_ctl_grp
+    400760: R_Heel_ctl_grp
+    400762: R_Heel_Lifter_ctl
+    400764: R_Heel_lifter_ctl_grp
+    400766: R_Hips_02_ctl
+    400768: R_Hips_02_ctl 1
+    400770: R_Hips_02_ctl_grp
+    400772: R_L_Heel_ctl
+    400774: R_Leg_1
+    400776: R_Leg_2
+    400778: R_Leg_3
+    400780: R_Leg_IK_Handle
+    400782: R_Leg_PV_ctl
+    400784: R_Leg_PV_ctl 1
+    400786: R_Leg_PV_ctl_grp
+    400788: R_Middle_Finger_01_ctl_grp
+    400790: R_Middle_Finger_02_ctl_grp
+    400792: R_Middle_Finger_03_ctl_grp
+    400794: R_MiddleFinger_01_ctl
+    400796: R_MiddleFinger_02_ctl
+    400798: R_MiddleFinger_03_ctl
+    400800: R_Pinky_Finger_01_ctl
+    400802: R_Pinky_Finger_01_ctl_grp
+    400804: R_Pinky_Finger_02_ctl
+    400806: R_Pinky_Finger_02_ctl_grp
+    400808: R_Pinky_Finger_03_ctl
+    400810: R_Pinky_Finger_03_ctl_grp
+    400812: R_Pointer_Finger_01_ctl
+    400814: R_Pointer_Finger_01_ctl_grp
+    400816: R_Pointer_Finger_02_ctl
+    400818: R_Pointer_Finger_02_ctl_grp
+    400820: R_Pointer_Finger_03_ctl
+    400822: R_Pointer_Finger_03_ctl_grp
+    400824: R_Ring_Finger_01_ctl
+    400826: R_Ring_Finger_01_ctl_grp
+    400828: R_Ring_Finger_02_ctl
+    400830: R_Ring_Finger_02_ctl_grp
+    400832: R_Ring_Finger_03_ctl
+    400834: R_Ring_Finger_03_ctl_grp
+    400836: R_Thumb_1
+    400838: R_Thumb_2
+    400840: R_Toe_Lifter_ctl
+    400842: R_Toe_lifter_ctl_grp1
+    400844: R_Toe_TIp_ctl
+    400846: R_Toe_Tip_ctl_grp
+    400848: RK
+    400850: RK_Ctrls
+    400852: ROTATE_THUMB_CYLINDER
+    400854: rotating_part
+    400856: rotating_part 1
+    400858: rotating_part 2
+    400860: rotocyl
+    400862: rotocyl 1
+    400864: rotocyl 2
+    400866: s_ear1
+    400868: ShirtObject
+    400870: ShoulderRotator
+    400872: Skeleton
+    400874: SkirtSim
+    400876: small_rotator_joint
+    400878: small_rotator_joint 1
+    400880: small_rotator_joint 2
+    400882: SmallAttachPiece
+    400884: smaller_piece_joint
+    400886: smaller_piece_joint 1
+    400888: smaller_piece_joint 2
+    400890: SmallPoint
+    400892: Spear
+    400894: Spear2_Geo
+    400896: Spear2_Geo 1
+    400898: Spear2_Geo 2
+    400900: Spear3
+    400902: Spear5
+    400904: spear_bottom_ctl
+    400906: spear_bottom_ctl 1
+    400908: spear_bottom_ctl 2
+    400910: spear_Bottom_ctl_grp
+    400912: spear_Bottom_ctl_grp 1
+    400914: spear_Bottom_ctl_grp 2
+    400916: spear_main_ctl
+    400918: spear_main_ctl 1
+    400920: spear_main_ctl 2
+    400922: spear_main_ctl_grp
+    400924: spear_main_ctl_grp 1
+    400926: spear_main_ctl_grp 2
+    400928: spear_rotator_ctl
+    400930: spear_rotator_ctl 1
+    400932: spear_rotator_ctl 2
+    400934: spear_rotator_ctl_grp
+    400936: spear_rotator_ctl_grp 1
+    400938: spear_rotator_ctl_grp 2
+    400940: spear_second_ctl
+    400942: spear_second_ctl 1
+    400944: spear_second_ctl 2
+    400946: spear_second_ctl_grp
+    400948: spear_second_ctl_grp 1
+    400950: spear_second_ctl_grp 2
+    400952: spear_third_ctl
+    400954: spear_third_ctl 1
+    400956: spear_third_ctl 2
+    400958: spear_third_ctl_grp
+    400960: spear_third_ctl_grp 1
+    400962: spear_third_ctl_grp 2
+    400964: spear_top_ctl
+    400966: spear_top_ctl 1
+    400968: spear_top_ctl 2
+    400970: spear_Top_ctl_grp
+    400972: spear_Top_ctl_grp 1
+    400974: spear_Top_ctl_grp 2
+    400976: Spears
+    400978: Spine_01_ctl
+    400980: Spine_01_ctl_grp
+    400982: Spine_02_ctl
+    400984: Spine_02_ctl_grp
+    400986: Spine_03_ctl
+    400988: Spine_03_ctl_grp
+    400990: Spine_04_ctl
+    400992: Spine_04_ctl_grp
+    400994: Spine_1
+    400996: Spine_2
+    400998: Spine_3
+    401000: Spine_4
+    401002: StaticSkirt
+    401004: Thigh
+    401006: Thumb_01_ctl
+    401008: Thumb_01_ctl_grp
+    401010: Thumb_02_ctl
+    401012: Thumb_02_ctl_grp
+    401014: Thumb_Piece_1
+    401016: Thumb_Piece_2
+    401018: ThumbRotator
+    401020: Toes
+    401022: Top_of_foot
+    401024: topHandle
+    401026: Transform_ctl
+    401028: TubeonEnd
+    401030: TubeonPointEnd
+    401032: upper_large_handle
+    401034: upper_large_handle 1
+    401036: upper_large_handle 2
+    401038: Upper_small_handle
+    401040: Upper_small_handle 1
+    401042: Upper_small_handle 2
+    401044: WristinForeArm
+    401046: WristInHand
+    401048: WristSphere
+    2000000: left
+    2300000: Ball_Rotator_in_Ankle
+    2300002: Bicep
+    2300004: Big_Toe_Piece
+    2300006: BigPoint
+    2300008: blade
+    2300010: blade 1
+    2300012: blade 2
+    2300014: ElbowSpinner
+    2300016: End
+    2300018: Expanding_blade
+    2300020: Expanding_blade 1
+    2300022: Expanding_blade 2
+    2300024: Finger_1_Piece_1
+    2300026: Finger_1_Piece_2
+    2300028: Finger_1_Piece_3
+    2300030: Finger_1_Rotation_1
+    2300032: Finger_1_Rotation_2
+    2300034: Finger_1_Rotation_3
+    2300036: Finger_2_Piece_1
+    2300038: Finger_2_Piece_2
+    2300040: Finger_2_Piece_3
+    2300042: Finger_2_Rotation_1
+    2300044: Finger_2_Rotation_2
+    2300046: Finger_2_Rotation_3
+    2300048: Finger_3_Piece_1
+    2300050: Finger_3_Piece_2
+    2300052: Finger_3_Piece_3
+    2300054: Finger_3_Rotation_1
+    2300056: Finger_3_Rotation_2
+    2300058: Finger_3_Rotation_3
+    2300060: Finger_4_Piece_1
+    2300062: Finger_4_Piece_2
+    2300064: Finger_4_Piece_3
+    2300066: Finger_4_Rotation_1
+    2300068: Finger_4_Rotation_2
+    2300070: Finger_4_Rotation_3
+    2300072: ForeArm_Inner
+    2300074: HairTiething
+    2300076: Heel_Piece
+    2300078: Inner_Foot
+    2300080: Inner_shin
+    2300082: Knee_Going_Into_Shin
+    2300084: Knee_Rotator
+    2300086: L_Eye1
+    2300088: lower_large_handle
+    2300090: lower_large_handle 1
+    2300092: lower_large_handle 2
+    2300094: Lower_LEg
+    2300096: lower_small_handle
+    2300098: lower_small_handle 1
+    2300100: lower_small_handle 2
+    2300102: MainForeArm
+    2300104: MainHandle
+    2300106: MainHandle1
+    2300108: Other_Toes_Piece
+    2300110: Palm_Piece
+    2300112: pPlane26 2
+    2300114: pPlane27
+    2300116: pPlane27 1
+    2300118: pPlane27 2
+    2300120: R_Eye1
+    2300122: ROTATE_THUMB_CYLINDER
+    2300124: rotocyl
+    2300126: rotocyl 1
+    2300128: rotocyl 2
+    2300130: ShoulderRotator
+    2300132: SkirtSim
+    2300134: small_rotator_joint
+    2300136: small_rotator_joint 1
+    2300138: small_rotator_joint 2
+    2300140: SmallAttachPiece
+    2300142: SmallPoint
+    2300144: StaticSkirt
+    2300146: Thigh
+    2300148: Thumb_Piece_1
+    2300150: Thumb_Piece_2
+    2300152: ThumbRotator
+    2300154: Toes
+    2300156: Top_of_foot
+    2300158: topHandle
+    2300160: TubeonEnd
+    2300162: TubeonPointEnd
+    2300164: upper_large_handle
+    2300166: upper_large_handle 1
+    2300168: upper_large_handle 2
+    2300170: Upper_small_handle
+    2300172: Upper_small_handle 1
+    2300174: Upper_small_handle 2
+    2300176: WristinForeArm
+    2300178: WristInHand
+    2300180: WristSphere
+    3300000: Ball_Rotator_in_Ankle
+    3300002: Bicep
+    3300004: Big_Toe_Piece
+    3300006: BigPoint
+    3300008: blade
+    3300010: blade 1
+    3300012: blade 2
+    3300014: ElbowSpinner
+    3300016: End
+    3300018: Expanding_blade
+    3300020: Expanding_blade 1
+    3300022: Expanding_blade 2
+    3300024: Finger_1_Piece_1
+    3300026: Finger_1_Piece_2
+    3300028: Finger_1_Piece_3
+    3300030: Finger_1_Rotation_1
+    3300032: Finger_1_Rotation_2
+    3300034: Finger_1_Rotation_3
+    3300036: Finger_2_Piece_1
+    3300038: Finger_2_Piece_2
+    3300040: Finger_2_Piece_3
+    3300042: Finger_2_Rotation_1
+    3300044: Finger_2_Rotation_2
+    3300046: Finger_2_Rotation_3
+    3300048: Finger_3_Piece_1
+    3300050: Finger_3_Piece_2
+    3300052: Finger_3_Piece_3
+    3300054: Finger_3_Rotation_1
+    3300056: Finger_3_Rotation_2
+    3300058: Finger_3_Rotation_3
+    3300060: Finger_4_Piece_1
+    3300062: Finger_4_Piece_2
+    3300064: Finger_4_Piece_3
+    3300066: Finger_4_Rotation_1
+    3300068: Finger_4_Rotation_2
+    3300070: Finger_4_Rotation_3
+    3300072: ForeArm_Inner
+    3300074: HairTiething
+    3300076: Heel_Piece
+    3300078: Inner_Foot
+    3300080: Inner_shin
+    3300082: Knee_Going_Into_Shin
+    3300084: Knee_Rotator
+    3300086: L_Eye1
+    3300088: lower_large_handle
+    3300090: lower_large_handle 1
+    3300092: lower_large_handle 2
+    3300094: Lower_LEg
+    3300096: lower_small_handle
+    3300098: lower_small_handle 1
+    3300100: lower_small_handle 2
+    3300102: MainForeArm
+    3300104: MainHandle
+    3300106: MainHandle1
+    3300108: Other_Toes_Piece
+    3300110: Palm_Piece
+    3300112: pPlane26 2
+    3300114: pPlane27
+    3300116: pPlane27 1
+    3300118: pPlane27 2
+    3300120: R_Eye1
+    3300122: ROTATE_THUMB_CYLINDER
+    3300124: rotocyl
+    3300126: rotocyl 1
+    3300128: rotocyl 2
+    3300130: ShoulderRotator
+    3300132: SkirtSim
+    3300134: small_rotator_joint
+    3300136: small_rotator_joint 1
+    3300138: small_rotator_joint 2
+    3300140: SmallAttachPiece
+    3300142: SmallPoint
+    3300144: StaticSkirt
+    3300146: Thigh
+    3300148: Thumb_Piece_1
+    3300150: Thumb_Piece_2
+    3300152: ThumbRotator
+    3300154: Toes
+    3300156: Top_of_foot
+    3300158: topHandle
+    3300160: TubeonEnd
+    3300162: TubeonPointEnd
+    3300164: upper_large_handle
+    3300166: upper_large_handle 1
+    3300168: upper_large_handle 2
+    3300170: Upper_small_handle
+    3300172: Upper_small_handle 1
+    3300174: Upper_small_handle 2
+    3300176: WristinForeArm
+    3300178: WristInHand
+    3300180: WristSphere
+    4300000: SkirtSim
+    4300002: MainForeArm
+    4300004: ForeArm_Inner
+    4300006: ElbowSpinner
+    4300008: Hair_wraparound
+    4300010: Ponytail
+    4300012: HairTiething
+    4300014: OnTopHair
+    4300016: CurlyHair
+    4300018: MainHangingHair
+    4300020: Inner_shin
+    4300022: Knee_Rotator
+    4300024: Thigh
+    4300026: Knee_Going_Into_Shin
+    4300028: Lower_LEg
+    4300030: Big_Toe_Piece
+    4300032: Other_Toes_Piece
+    4300034: Inner_Foot
+    4300036: Heel_Piece
+    4300038: Top_of_foot
+    4300040: Ball_Rotator_in_Ankle
+    4300042: Toes
+    4300044: WristInHand
+    4300046: WristinForeArm
+    4300048: WristSphere
+    4300050: Thumb_Piece_1
+    4300052: ThumbRotator
+    4300054: Thumb_Piece_2
+    4300056: ROTATE_THUMB_CYLINDER
+    4300058: Finger_4_Piece_3
+    4300060: Finger_4_Piece_2
+    4300062: Finger_4_Piece_1
+    4300064: Finger_4_Rotation_3
+    4300066: Finger_4_Rotation_2
+    4300068: Finger_4_Rotation_1
+    4300070: Finger_3_Rotation_3
+    4300072: Finger_3_Piece_1
+    4300074: Finger_3_Rotation_1
+    4300076: Finger_3_Piece_2
+    4300078: Finger_3_Piece_3
+    4300080: Finger_3_Rotation_2
+    4300082: Finger_2_Rotation_2
+    4300084: Finger_2_Piece_2
+    4300086: Finger_2_Piece_1
+    4300088: Finger_2_Rotation_3
+    4300090: Finger_2_Piece_3
+    4300092: Finger_2_Rotation_1
+    4300094: Finger_1_Rotation_3
+    4300096: Finger_1_Rotation_1
+    4300098: Finger_1_Piece_1
+    4300100: Finger_1_Piece_3
+    4300102: Finger_1_Piece_2
+    4300104: Finger_1_Rotation_2
+    4300106: Palm_Piece
+    4300108: Bicep
+    4300110: ShoulderRotator
+    4300112: GirlModel
+    4300114: StaticSkirt
+    4300116: ShirtObject
+    4300118: pPlane26
+    4300120: pPlane27
+    4300122: pPlane26
+    4300124: pPlane27
+    4300126: L_Eye1
+    4300128: R_Eye1
+    4300130: pPlane26
+    4300132: pPlane27
+    4300134: lower_large_handle
+    4300136: lower_small_handle
+    4300138: rotocyl
+    4300140: small_rotator_joint
+    4300142: upper_large_handle
+    4300144: Expanding_blade
+    4300146: blade
+    4300148: Upper_small_handle
+    4300150: lower_large_handle
+    4300152: lower_small_handle
+    4300154: rotocyl
+    4300156: small_rotator_joint
+    4300158: upper_large_handle
+    4300160: Expanding_blade
+    4300162: blade
+    4300164: Upper_small_handle
+    4300166: lower_large_handle
+    4300168: lower_small_handle
+    4300170: rotocyl
+    4300172: small_rotator_joint
+    4300174: upper_large_handle
+    4300176: Expanding_blade
+    4300178: blade
+    4300180: Upper_small_handle
+    4300182: SmallPoint
+    4300184: End
+    4300186: TubeonEnd
+    4300188: MainHandle
+    4300190: topHandle
+    4300192: BigPoint
+    4300194: TubeonPointEnd
+    4300196: SmallAttachPiece
+    4300198: MainHandle1
+    7400000: idle
+    7400002: spin
+    7400004: run
+    9500000: //RootNode
+    13700000: CurlyHair
+    13700002: GirlModel
+    13700004: Hair_wraparound
+    13700006: MainHangingHair
+    13700008: OnTopHair
+    13700010: Ponytail
+    13700012: pPlane26
+    13700014: pPlane26 1
+    13700016: ShirtObject
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: spin
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
